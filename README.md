@@ -5,11 +5,6 @@
 - [Objectives](#objectives)
 - [Technologies](#technologies)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Endpoints](#endpoints)
-- [Unit Testing](#unit-testing)
-- [CI/CD Automation](#cicd-automation)
-- [Deployment](#deployment)
 - [License](#license)
 
 ## Project Overview
