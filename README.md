@@ -18,8 +18,9 @@ The Fitness Tracker application provides RESTful web services to help users moni
 - Develop RESTful services using Spring Boot.
 - Implement user management, activity tracking, diet tracking, health metrics, and goal management.
 - Use SQL databases for data persistence.
-- Containerize the application with Docker and deploy it on Microsoft Azure.
 - Implement unit tests to ensure code quality.
+- Containerize the application with Docker.
+- Deploy the containerized application on Microsoft Azure.
 
 ## Technologies
 - **Framework**: Spring Boot
