@@ -8,6 +8,7 @@
 - [Usage](#usage)
 - [Endpoints](#endpoints)
 - [Unit Testing](#unit-testing)
+- [CI/CD Automation](#cicd-automation)
 - [Deployment](#deployment)
 - [License](#license)
 
@@ -19,6 +20,7 @@ The Fitness Tracker application provides RESTful web services to help users moni
 - Implement user management, activity tracking, diet tracking, health metrics, and goal management.
 - Use SQL databases for data persistence.
 - Implement unit tests to ensure code quality.
+- **Automate** the build, testing, and deployment processes using CI/CD practices.
 - Containerize the application with Docker.
 - Deploy the containerized application on Microsoft Azure.
 
@@ -27,8 +29,10 @@ The Fitness Tracker application provides RESTful web services to help users moni
 - **Database**: SQL (MySQL/PostgreSQL)
 - **Containerization**: Docker
 - **Build Tool**: Maven
-- **Testing**: Postman
+- **Testing**: Postman, JUnit
 - **Cloud**: Microsoft Azure
+- **Automation**: GitHub Actions for CI/CD
+- **Java Version**: 23
 
 ## Installation
 1. Clone the repository and checkout the specific branch:
