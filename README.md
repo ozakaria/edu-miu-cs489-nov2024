@@ -38,3 +38,9 @@ The Fitness Tracker application provides RESTful web services to help users moni
 1. Clone the repository and checkout the specific branch:
    ```bash
    git clone -b project https://github.com/ozakaria/edu-miu-cs489-nov2024.git
+
+## License
+
+This project is licensed under the MIT License. It is free to use, modify, and distribute.
+
+
