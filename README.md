@@ -85,6 +85,8 @@ mvn spring-boot:run
 docker build -t fitness-tracker-api .
 docker run -p 8080:8080 fitness-tracker-api
 
+---
+
 ## License
 
 This project is free to use and distribute.
