@@ -73,17 +73,17 @@ The Fitness Tracker API allows users to track workouts, diet, and fitness goals 
    cd edu-miu-cs489-nov2024
 
 2. Build the application using Maven:
-
-mvn clean install
+   ```bash
+   mvn clean install
 
 3. Run the application:
-
-mvn spring-boot:run
+   ```bash
+   mvn spring-boot:run
 
 4. To containerize the application, build and run the Docker image:
-
-docker build -t fitness-tracker-api .
-docker run -p 8080:8080 fitness-tracker-api
+   ```bash
+   docker build -t fitness-tracker-api .
+   docker run -p 8080:8080 fitness-tracker-api
 
 ---
 
