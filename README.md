@@ -7,12 +7,18 @@ This repository contains the backend services for a fitness tracker application,
 ---
 
 ## Table of Contents
+- [Problem Statement](#problem-statement)
 - [Objectives](#objectives)
 - [Architecture](#architecture)
 - [Technologies](#technologies)
-- [Problem Statement](#problem-statement)
 - [Getting Started](#getting-started)
 - [License](#license)
+
+---
+
+## Problem Statement
+
+The Fitness Tracker API allows users to track workouts, diet, and fitness goals by providing endpoints for managing exercise records, diet logs, and setting fitness targets. This project focuses on the backend functionalities, integrating various software development concepts such as data persistence, API security, containerization, and deployment, along with a CI/CD pipeline for efficient development and deployment.
 
 ---
 
@@ -68,12 +74,6 @@ The architecture of the Fitness Tracker backend API is based on a layered approa
 - **Microsoft Azure**: Cloud platform for deployment.
 - **GitHub Actions**: CI/CD pipeline for automated testing and deployment.
 - **Postman**: API testing tool.
-
----
-
-## Problem Statement
-
-The Fitness Tracker API allows users to track workouts, diet, and fitness goals by providing endpoints for managing exercise records, diet logs, and setting fitness targets. This project focuses on the backend functionalities, integrating various software development concepts such as data persistence, API security, containerization, and deployment, along with a CI/CD pipeline for efficient development and deployment.
 
 ---
 
