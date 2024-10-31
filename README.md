@@ -30,9 +30,30 @@ This repository contains the backend services for a fitness tracker application,
 
 ## Architecture
 
-### High-Level Architecture Diagram
+### High-Level Architecture Description
 
-[To be done later]
+The architecture of the Fitness Tracker backend API is based on a layered approach with clear separation of concerns:
+
+1. **Presentation Layer**:
+   - **REST API (Controller)**: Exposes endpoints for users to interact with the system. Each endpoint is handled by a specific controller to manage fitness, diet, and workout tracking operations.
+   - **Technology**: Spring Boot (REST Controllers)
+
+2. **Service Layer**:
+   - **Business Logic**: Contains the core logic of the application, processing requests from the controller and applying necessary business rules.
+   - **Technology**: Spring Framework (Services)
+
+3. **Data Access Layer**:
+   - **Repository Layer**: Manages communication with the SQL database, mapping objects to tables and handling CRUD operations for fitness data.
+   - **Technology**: Spring Data JPA
+
+4. **Security Layer**:
+   - **Authentication and Authorization**: Manages user authentication and access control for secure data interactions.
+   - **Technology**: Spring Security
+
+5. **Infrastructure Layer**:
+   - **Containerization**: Docker is used to containerize the application, allowing it to run consistently across environments.
+   - **CI/CD Pipeline**: Automated CI/CD pipeline to test and deploy the application on Microsoft Azure.
+   - **Cloud Deployment**: Microsoft Azure serves as the hosting environment for the deployed application.
 
 ---
 
