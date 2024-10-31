@@ -72,15 +72,15 @@ The Fitness Tracker API allows users to track workouts, diet, and fitness goals 
    git clone -b project https://github.com/ozakaria/edu-miu-cs489-nov2024.git
    cd edu-miu-cs489-nov2024
 
-#### Build the application using Maven:
+2. Build the application using Maven:
 
 mvn clean install
 
-#### Run the application:
+3. Run the application:
 
 mvn spring-boot:run
 
-#### To containerize the application, build and run the Docker image:
+4. To containerize the application, build and run the Docker image:
 
 docker build -t fitness-tracker-api .
 docker run -p 8080:8080 fitness-tracker-api
